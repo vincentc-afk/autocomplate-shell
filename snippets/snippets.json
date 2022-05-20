@@ -21,7 +21,7 @@
     },
     "if" : {
         "prefix": "if",
-        "body": "if ${0:condition} \nthen\n\t${1}\nfi",
+        "body": "if [[${0:condition}]]; then\n\t${1}\nfi",
         "description": "if"
     },
     "elseif" : {
